@@ -1,0 +1,18 @@
+body{
+    background-color:#897680;
+}
+
+#tempdiff{ 
+    padding: 30;
+}
+
+#temcalc{ 
+    position: center; 
+    border: 3px solid black;
+    padding: auto;
+    margin: 300px;
+    width: auto; 
+    padding: 50px;
+    place-items: center;
+    background-color: #76897F;
+} 
