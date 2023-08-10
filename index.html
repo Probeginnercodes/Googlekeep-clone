@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <title>temprature</title>
+
+</head>
+<body>
+
+    <form id ="temcalc" onsubmit="calculateTemp(); return false"> 
+        <label for="temp"> Please enter the temprature you'd like to convert.</label>
+        <br/><input type="number" name="temp" id="temp">
+
+        <select name="temp_diff" id="temp_diff"> 
+            <option value="cel"> Celcious </option>
+            <option value="fah"> Franheight </option>
+        </select> <br/> 
+
+        <input type="submit" name="temp"><br/> 
+        <span id ="resultcontainer"></span>
+        
+       
+    </form>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
